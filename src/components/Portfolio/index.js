@@ -12,7 +12,7 @@ const Portfolio = () => {
                     name={projects.name}
                     imageSrc={projects.imageSrc}
                     imageAlt={projects.imageAlt}
-                    link={project.link}
+                    link={projects.link}
                     />
                 );
             })}

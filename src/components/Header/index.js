@@ -9,7 +9,7 @@ const Header = () => {
                     </div>
                     <ul className="d-flex flex-row pt-3">
                         <li className="mx-3">
-                            <a href="/">Home</a>
+                            <a href="/">About Me</a>
                         </li>
                         <li className="mx-3">
                             <a href="/portfolio">Portfolio</a>
