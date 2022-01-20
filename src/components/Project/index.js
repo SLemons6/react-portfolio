@@ -8,7 +8,7 @@ const Project = props => {
                     {props.name}
                 </p>
                 <div className="card-body">
-                    <img className="img-fluid" src={props.imgSource} alt={props.imgAlt} />
+                    <img className="img-fluid" src={props.imageSrc} alt={props.imageAlt} />
                 </div>
                 <div className="card-footer">
                 <a href={props.link}>GitHub</a>

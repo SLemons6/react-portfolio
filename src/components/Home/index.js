@@ -10,7 +10,7 @@ const Home = () => {
                     </div>
                     <div className="col-12 content">
                         <p className="pt-4">
-                            This is my React App portolio, which I hope to continuosly add to and improve.  
+                            This is my React App portolio, which I hope to continuosly add to and improve.
                             If you have any questions, please contact me via my email on the Contact Page.
                         </p>
                     </div>
@@ -21,11 +21,12 @@ const Home = () => {
                     </div>
                     <div className="col-12 content">
                         <p className="pt-4">
-                            I am a fullstack web development bootcamp student at the University of Oregon, graduating at the end of January, 2022.  
-                            I have lived in the Portland Metro area my whole life and my hobbies include video games, music, and weightlifting. 
+                            I am a fullstack web development bootcamp student at the University of Oregon, graduating at the end of January, 2022.
+                            I have lived in the Portland Metro area my whole life and my hobbies include video games, music, and weightlifting.
                         </p>
                     </div>
                 </div>
+            </div>
         </section>
     );
 };

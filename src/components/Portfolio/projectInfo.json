@@ -1,26 +1,26 @@
 [
     {
         "name": "Budget Tracker",
-        "imageSrc": "./assets/images/budgettracker.jpg",
+        "imageSrc": "/assets/images/budgettracker.jpg",
         "imageAlt": "Screenshot of Budget Tracker App",
         "link":"https://github.com/SLemons6/pwa-budget-tracker"
     },
     {
         "name": "Note Taker",
-        "imageSrc": "./assets/images/notetaker.jpg",
-        "imageAlt": "Screenshot of Note Taker App",
+        "imageSrc": "../../assets/images/notetaker.jpg",
+        "imageAlt": "'Screenshot of Note Taker App'",
         "link":"https://github.com/SLemons6/note-taker"
     },
     {
         "name": "Password Generator",
         "imageSrc": "./assets/images/passwordgenerator.jpg",
-        "imageAlt": "Screenshot of Password Generator App",
+        "imageAlt": "'Screenshot of Password Generator App'",
         "link":"https://github.com/SLemons6/password-generator"
     },
     {
         "name": "Workday Scheduler",
         "imageSrc": "./assets/images/workdayscheduler.jpg",
-        "imageAlt": "Screenshot of Workday Scheduler App",
+        "imageAlt": "'Screenshot of Workday Scheduler App'",
         "link":"https://github.com/SLemons6/work-scheduler"
     }
 ]

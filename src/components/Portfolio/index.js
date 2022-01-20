@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from '.components/Project';
+import Project from '../../components/Project';
 import projectList from './projectInfo.json';
 
 const Portfolio = () => {
@@ -10,6 +10,7 @@ const Portfolio = () => {
                 return (
                     <Project
                     name={projects.name}
+                    key={projects.name}
                     imageSrc={projects.imageSrc}
                     imageAlt={projects.imageAlt}
                     link={projects.link}
