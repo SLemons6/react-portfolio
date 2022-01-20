@@ -9,13 +9,13 @@ const Header = () => {
                     </div>
                     <ul class="d-flex flex-row pt-3">
                         <li class="mx-3">
-                            <a href="#about-me">About Me</a>
+                            <a href="/">Home</a>
                         </li>
                         <li class="mx-3">
-                            <a href="#my-projects">My Projects</a>
+                            <a href="/Works">My Projects</a>
                         </li>
                         <li class="mx-3">
-                            <a href="#contact-me">Contact Me</a>
+                            <a href="/Contact">Contact Me</a>
                         </li>
                     </ul>
                 </div>

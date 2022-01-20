@@ -6,7 +6,7 @@ const Home = () => {
             <div class="container-fluid py-4">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="text-center">Check Out My Projects!</h2>
+                        <h2 class="text-center">About Me:</h2>
                     </div>
                 </div>
             </div>
