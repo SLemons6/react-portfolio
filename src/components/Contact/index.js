@@ -36,27 +36,33 @@ const Contact = () => {
     };
 
     return (
-        <div className="">
+        <div className="container-fluid align-items-start">
             <h1>Contact Me</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+                <div className="form-group">
+                    <label className="form-label" htmlFor="name">Name:</label>
+                    <div className="col-10">
+                        <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+                    </div>
                 </div>
-                <div>
-                    <label htmlFor="email">Email address:</label>
-                    <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+                <div className="form-group">
+                    <label className="form-label" htmlFor="email">Email address:</label>
+                    <div className="col-10">
+                        <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+                    </div>
                 </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+                <div className="form-group">
+                    <label className="form-label" htmlFor="message">Message:</label>
+                    <div className="col-10">
+                        <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+                    </div>
                 </div>
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-                <button data-testid="button" type="submit">Submit</button>
+                <button className="form-button" data-testid="button" type="submit">Submit</button>
             </form>
         </div>
     );
