@@ -12,7 +12,7 @@ A React APP portfolio showcasing the coding projects I have created, with home, 
 
 Heroku: https://slemons6reactportfolio.herokuapp.com/
 
-<img src="./assets/images/screenshot.jpg" alt="screenshot of react portfolio" />
+<img src="./src/assets/images/screenshot.jpg" alt="screenshot of react portfolio" />
 
 ## Credit: 
 
