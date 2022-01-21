@@ -11,7 +11,7 @@ const Project = props => {
                     <img className="img-fluid" src={props.imageSrc} alt={props.imageAlt} />
                 </div>
                 <div className="card-footer">
-                <a href={props.link}>GitHub</a>
+                <a href={props.link}>Link</a>
                 </div>
             </div>
         </div>

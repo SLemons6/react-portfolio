@@ -1,26 +1,38 @@
 [
     {
+        "name": "Bark 2.0",
+        "imageSrc": "bark2.jpg",
+        "imageAlt": "Screenshot of Bark 2.0 App",
+        "link": "https://github.com/SLemons6/bark_2.0"
+    },
+    {
+        "name": "What's Happenin'",
+        "imageSrc": "whatshappenin.jpg",
+        "imageAlt": "Screenshot of What's Happenin App",
+        "link": "http://fast-taiga-42173.herokuapp.com"
+    },
+    {
         "name": "Budget Tracker",
-        "imageSrc": "/assets/images/budgettracker.jpg",
+        "imageSrc": "budgettracker.jpg",
         "imageAlt": "Screenshot of Budget Tracker App",
         "link":"https://github.com/SLemons6/pwa-budget-tracker"
     },
     {
         "name": "Note Taker",
-        "imageSrc": "../../assets/images/notetaker.jpg",
-        "imageAlt": "'Screenshot of Note Taker App'",
+        "imageSrc": "notetaker.jpg",
+        "imageAlt": "Screenshot of Note Taker App",
         "link":"https://github.com/SLemons6/note-taker"
     },
     {
         "name": "Password Generator",
-        "imageSrc": "./assets/images/passwordgenerator.jpg",
-        "imageAlt": "'Screenshot of Password Generator App'",
+        "imageSrc": "passwordgenerator.jpg",
+        "imageAlt": "Screenshot of Password Generator App",
         "link":"https://github.com/SLemons6/password-generator"
     },
     {
         "name": "Workday Scheduler",
-        "imageSrc": "./assets/images/workdayscheduler.jpg",
-        "imageAlt": "'Screenshot of Workday Scheduler App'",
+        "imageSrc": "workdayscheduler.jpg",
+        "imageAlt": "Screenshot of Workday Scheduler App",
         "link":"https://github.com/SLemons6/work-scheduler"
     }
 ]
