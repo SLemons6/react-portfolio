@@ -12,16 +12,14 @@ import './App.css';
 
 function App() {
   return (
-    <div className='flex-column justify-flex-start min-100-vh'>
+    <div className=' d-flex flex-column justify-flex-start min-100-vh'>
       <Header />
-      <div className='container-fluid'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/portfolio' element={<Portfolio />} />
           <Route path='/resume' element={<Resume />} />
           <Route path='/contact' element={<Contact />} />        
         </Routes>
-      </div>
       <Footer />
     </div>
   );

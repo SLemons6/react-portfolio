@@ -5,16 +5,18 @@ import projectList from './projectInfo.json';
 const Portfolio = () => {
 
     return (
-        <div>
+        <div className="container-fluid d-inline-flex flex-row flex-wrap align-items-center justify-content-evenly">
             {projectList.map((projects) => {
                 return (
-                    <Project
-                    name={projects.name}
-                    key={projects.name}
-                    imageSrc={projects.imageSrc}
-                    imageAlt={projects.imageAlt}
-                    link={projects.link}
-                    />
+                    <div className="col-5 m-1">
+                            <Project
+                                name={projects.name}
+                                key={projects.name}
+                                imageSrc={projects.imageSrc}
+                                imageAlt={projects.imageAlt}
+                                link={projects.link}
+                            />
+                    </div>
                 );
             })}
         </div>

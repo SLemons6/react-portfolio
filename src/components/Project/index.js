@@ -2,7 +2,7 @@ import React from 'react';
 
 const Project = props => {
     return (
-        <div className="container-fluid">
+        <div>
             <div className="card mb-3 text-center">
                 <p className="card-header">
                     {props.name}

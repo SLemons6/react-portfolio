@@ -10,7 +10,7 @@ const Resume = () => {
             </div>
             <div>
                 <h2>Skills/Proficiencies</h2>
-                <ul>
+                <ul className="resumeList">
                     <li>HTML5</li>
                     <li>CSS</li>
                     <li>Bootstrap</li>
