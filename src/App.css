@@ -60,10 +60,6 @@ h2 {
   background-color: transparent;
 }
 
-h2:hover { 
-  background-color: #2F3E46;
-}
-
 h3 {
   font-size: 1.75rem;
   color: var(--primary);
@@ -109,7 +105,11 @@ nav a {
   color: var(--secondary);
 }
 
-nav a:hover {
+a:hover {
+  color: var(--quinary);
+}
+
+.resume-link h2:hover {
   color: var(--quinary);
 }
 
