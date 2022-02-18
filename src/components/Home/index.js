@@ -3,7 +3,7 @@ import React from 'react';
 const Home = () => {
     return (
         <section>
-            <div className="container-fluid py-4">
+            <div className="container-fluid py-4 mx-4">
                 <div className="row">
                     <div className="col-12">
                         <h2 className="text-center">My Portfolio:</h2>
