@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { validateEmail } from '../../utils/helpers';
-import emailjs from '@emailjs/browser';
+import emailjs, { send } from '@emailjs/browser';
 
 const Contact = () => {
 
@@ -10,20 +10,8 @@ const Contact = () => {
     const [errorMessage, setErrorMessage] = useState('');
     const { user_name, user_email, message } = formState;
 
-    const sendEmail = (e) => {
-        e.preventDefault();
-
-        emailjs.sendForm('service_2c8tckh', 'contact_form', form.current, 'user_yl8KiNmWEBBa9g96nCAaN')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
-
-    };
-
     const handleChange = (e) => {
-        if (e.target.name === 'email') {
+        if (e.target.name === 'user_email') {
             const isValid = validateEmail(e.target.value);
             if (!isValid) {
                 setErrorMessage('Your email is invalid.');
@@ -32,7 +20,11 @@ const Contact = () => {
             }
         } else {
             if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required.`);
+                if (e.target.name === 'user_name')
+                    setErrorMessage('Your name is required.');
+                else if (e.target.name === 'message') {
+                    setErrorMessage('A message is required.');
+                }
             } else {
                 setErrorMessage('');
             }
@@ -40,6 +32,21 @@ const Contact = () => {
         if (!errorMessage) {
             setFormState({ ...formState, [e.target.name]: e.target.value });
             console.log('Handle Form', formState);
+        }
+    };
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        if (!errorMessage) {
+
+            emailjs.sendForm('service_2c8tckh', 'contact_form', form.current, 'user_yl8KiNmWEBBa9g96nCAaN')
+                .then((result) => {
+                    console.log(result.text);
+                }, (error) => {
+                    console.log(error.text);
+                });
+
         }
     };
 
