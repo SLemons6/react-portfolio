@@ -4,7 +4,7 @@ const Resume = () => {
     return (
         <div className="mx-5">
             <div>
-                <a href='resume.pdf' download>
+                <a href='resume.docx' download>
                     <h2 className="resume-link text-center">Download My Resume!</h2>
                 </a>    
             </div>
