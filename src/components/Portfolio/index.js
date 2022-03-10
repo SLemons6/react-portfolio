@@ -14,6 +14,7 @@ const Portfolio = () => {
                                 key={projects.name}
                                 imageSrc={projects.imageSrc}
                                 imageAlt={projects.imageAlt}
+                                desc={projects.desc}
                                 link={projects.link}
                             />
                     </div>

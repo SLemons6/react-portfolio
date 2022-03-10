@@ -3,36 +3,42 @@
         "name": "Bark 2.0",
         "imageSrc": "bark2.jpg",
         "imageAlt": "Screenshot of Bark 2.0 App",
-        "link": "https://github.com/SLemons6/bark_2.0"
+        "link": "https://github.com/SLemons6/bark_2.0",
+        "desc": "A web app that allows users to search for local and national parks to take their furry friends.  Built with Bulma CSS framework, Handlebars.js, MySQL, Node, and Express.js"
     },
     {
         "name": "What's Happenin'",
         "imageSrc": "whatshappenin.jpg",
         "imageAlt": "Screenshot of What's Happenin App",
-        "link": "http://fast-taiga-42173.herokuapp.com"
+        "link": "http://fast-taiga-42173.herokuapp.com",
+        "desc": "A React web app that allows users to create and share events and reactions with other users.  Built with Bootstrap on the front end and GraphQL on the back end."
     },
     {
         "name": "Budget Tracker",
         "imageSrc": "budgettracker.jpg",
         "imageAlt": "Screenshot of Budget Tracker App",
-        "link":"https://github.com/SLemons6/pwa-budget-tracker"
+        "link":"https://github.com/SLemons6/pwa-budget-tracker",
+        "desc": "An easy to use Progressive Web Application that allows users to monitor transactions over time, with or without an internet connection."
     },
     {
         "name": "Note Taker",
         "imageSrc": "notetaker.jpg",
         "imageAlt": "Screenshot of Note Taker App",
-        "link":"https://github.com/SLemons6/note-taker"
+        "link":"https://github.com/SLemons6/note-taker",
+        "desc": "A simple Express.js app that allows users to write and store notes."
     },
     {
         "name": "Password Generator",
         "imageSrc": "passwordgenerator.jpg",
         "imageAlt": "Screenshot of Password Generator App",
-        "link":"https://github.com/SLemons6/password-generator"
+        "link":"https://github.com/SLemons6/password-generator",
+        "desc": "A web app built with only HTML, CSS, and JavaScript that provides users with randomly generated passwords based on criteria provided by answers they provide to a series of prompts."
     },
     {
         "name": "Workday Scheduler",
         "imageSrc": "workdayscheduler.jpg",
         "imageAlt": "Screenshot of Workday Scheduler App",
-        "link":"https://github.com/SLemons6/work-scheduler"
+        "link":"https://github.com/SLemons6/work-scheduler",
+        "desc": "A web application that manages a standard work day schedule from 9 AM to 5 PM, with time blocks for every hour.  The scheduler will also save previous user input and color code time blocks based on if they're past due, current, or future tasks."
     }
 ]

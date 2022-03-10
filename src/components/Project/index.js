@@ -9,9 +9,12 @@ const Project = props => {
                 </p>
                 <div className="card-body">
                     <img className="img-fluid" src={props.imageSrc} alt={props.imageAlt} />
+                    <p className="card-text">
+                        {props.desc}
+                    </p>
                 </div>
                 <div className="card-footer">
-                <a href={props.link}>Link</a>
+                    <a href={props.link} target="_blank">Link</a>
                 </div>
             </div>
         </div>
